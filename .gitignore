@@ -1,0 +1,15 @@
+build/
+cmake_build-*/
+out/
+# Fichiers générés
+compile_commands.json
+*.o 
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+# Cahes des outlis
+.cache/
+.idea/
