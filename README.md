@@ -1,30 +1,17 @@
 # UIN-Campus
 
-Système de gestion académique de l'UIN.
+## Versions des outils
 
-## 📋 Présentation
+* g++ (Debian 16.2.0-3) 16.2.0
+* Debian clang version 21.1.8 (13)
+* cmake version 4.3.4
+* 1.13.2
+* GNU gdb (Debian 18.1-3) 18.1
+* git version 2.53.0
 
-Projet développé dans le cadre du TP de C++ moderne. Ce projet applique les bonnes pratiques d'ingénierie logicielle :
-- **Langage :** C++23
-- **Système de build :** CMake (v3.25+)
-- **Analyse statique et formatage :** `clang-format` et `clang-tidy`
+## Construction
 
----
-
-## 🛠️ Prérequis
-
-Assurez-vous de disposer des outils suivants installés sur votre système :
-- Un compilateur supportant C++23 (`g++` 13+ ou `clang` 16+)
-- `CMake` 3.25 ou supérieur
-- `clang-format` et `clang-tidy`
-- `Git`
-
----
-
-## ⚙️ Compilation et Exécution
-
-### 1. Configuration et Build avec CMake Presets
-
-Pour configurer et compiler le projet en mode **Debug** :
-
-
+```bash
+cmake --preset debug
+cmake --build --preset debug
+./build/debug/uin-campus
